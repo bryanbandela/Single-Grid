@@ -1,0 +1,28 @@
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    line-height: 1.2;
+    background-color: var(--ltgrey);
+}
+
+:root {
+    --cyan: #2ab2af;
+    --yellow: #c0df34;
+    --ltgrey: #e5eff5;
+    --greyblue: #98a6bd;
+}
+
+.price {
+
+    @media only screen (min-width: 62.5rem) {
+        display: grid;
+    }
+}
