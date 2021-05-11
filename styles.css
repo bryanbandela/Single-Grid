@@ -156,3 +156,7 @@ p {
     font-size: 0.85rem;
     margin-bottom: 0.2rem;
 }
+
+footer p {
+    text-align: center;
+}
